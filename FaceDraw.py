@@ -1,3 +1,4 @@
+# NOTE: This creates a image array from a user drawing; this is definitely not the best use of an autoencoder; this is just me messing around
 import pygame
 import numpy as np
 
