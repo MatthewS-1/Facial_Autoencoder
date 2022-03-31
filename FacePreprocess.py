@@ -26,23 +26,3 @@ random.shuffle(data)
 # shuffle data to ensure model sees a variety of data
 data = np.array(data)
 print(data.shape)
-'''
-    img = Image.fromarray(data[0], 'L')
-    img.save("test.png")
-    data = np.array(data)
-    global h, w, l
-    h, w, l = data.shape
-    data = data.reshape((h * w, l))
-    print(data.shape)
-    print(1)
-    np.savetxt("pixel_values.txt", data)
-
-from PIL import Image
-data = np.loadtxt("pixel_values.txt")
-data = data.reshape(2414, 192, 168)
-print(data.shape)
-img = Image.fromarray(data[0], 'L')
-img.save("test.png")
-print(data[0].shape)
-print(data[0])
-'''
